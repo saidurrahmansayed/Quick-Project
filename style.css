@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/* header design starts here */
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 25px 0 10px 0;
+    box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
+}
+.header-content{
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.header-content nav{
+    width: 50%;
+    float: left;
+}
+.header-content nav ul{
+    list-style-type: none;
+    margin: 15px 0;
+    text-align: right;
+}
+.header-content nav ul li{
+    display: inline;
+}
+.header-content nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #3b506c;
+}
+/* header design ends here */
+
+/* main design starts here */
+/* about-section */
+.about-section{
+    padding: 150px 0 100px 0;
+    text-align: center;
+}
+.about-section h1{
+    font-size: 70px;
+    color: #3b506c;
+    text-transform: capitalize;
+}
+.about-section span{
+    color: #0C66FF;
+}
+.about-section p{
+    font-size: 30px;
+    color: #3b506c;
+    padding: 50px 0 0 0;
+}
+/* image-section */
+.image-section img{
+    display: block;
+    margin: auto;
+    max-width: 80%;
+}
+/* fetured section */
+.fetured-section{
+    padding: 150px 0;
+    margin: auto;
+}
+.column{
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+.column h1{
+    font-size: 60px;
+    color: #3b506c;
+}
+.column p{
+    font-size: 25px;
+    color: #3b506c;
+    margin-top: 50px;
+}
+.fetured-right{
+    text-align: right;
+}
+.fetured-right span{
+    color: #FF3333;
+}
+/* blogs sectiuon */
+.blog-section{
+    padding: 200px 0 50px 0;
+}
+.card{
+    width: 33.33%;
+    float: left;
+}
+.blog{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(100 100 111 / 23%) 0px 7px 29px 0px;
+}
+.blog h3{
+    margin:30px 0;
+    color: #3b506c;
+    font-size: 25px;
+}
+.blog p{
+    font-size: 18px;
+    color: #3b506c;
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.103);
+    transition-duration: 1.5s;
+}
+.red:hover{
+    background-color: #FFFFDA;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.blue{
+    background-color: rgba(0, 128, 0, 0.116);
+    transition-duration: 1.5s;
+}
+.blue:hover{
+    background-color: #FFFFDA;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.yello{
+    background-color: rgba(255, 255, 0, 0.126);
+    transition-duration: 1.5s;
+}
+.yello:hover{
+    background-color: #FFFFDA;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.div{
+    clear: both;
+}
+/* main design ends here */
+
+/* footer design starts here */
+footer{
+    padding:50px 0 350px 0;
+    background-color: #EEEEEE;
+    margin: auto;
+
+}
+.footer-item{
+    float: left;
+    width: 25%;
+    padding: 30px;
+}
+.footer-item h3{
+    color: #3b506c;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer-item a{
+    text-decoration: none;
+    color: #3b506c;
+    font-size: 20px;
+}
+
+.footer-item ul{
+    list-style-type: none;
+}
+/* footer design ends here */
